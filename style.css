@@ -12,6 +12,8 @@ body{
     background:url("./images/ian-stauffer-bH7kZ0yazB0-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -50,6 +52,11 @@ input{
     box-sizing:border-box;
 }
 
+input:hover{
+    border:1px solid #ea0b7f;
+    outline:none;
+}
+
 button{
     width:100%;
     padding:10px;
@@ -79,7 +86,7 @@ h3{
 
 @media(min-width: 800px){
      .calculator{
-        width: 400px;
+        width: 450px;
         margin: 5px 10px;
         padding: 20px;
     }
