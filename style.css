@@ -28,7 +28,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(36, 4, 4, 0.2);
+    background-color: rgba(226, 18, 18, 0.2);
     z-index: 1;
 }
 
@@ -38,7 +38,7 @@ body{
     position: relative;
     z-index: 2;
     background:white;
-    width:100%;
+    width:400px;
     padding:30px;
     border-radius:5px;
     box-shadow:0 0 10px rgba(0,0,0,.2);
@@ -50,12 +50,17 @@ input{
     padding:10px;
     margin:10px 0;
     box-sizing:border-box;
+    border:1px solid #18040e;
+    border-radius:5px;
+    transition: all ease-in-out .3s;
+    outline:none;
 }
 
-input:hover{
+input:focus{
     border:1px solid #ea0b7f;
     outline:none;
 }
+
 
 button{
     width:100%;
@@ -84,12 +89,13 @@ h3{
 }
 
 
-@media(min-width: 800px){
-     .calculator{
-        width: 450px;
-        margin: 5px 10px;
-        padding: 20px;
+@media(max-width: 800px){
+
+    .container{
+        margin: 20px 10px;
     }
+
+    
     button{
         padding: 12px;
         font-size: 14px;
