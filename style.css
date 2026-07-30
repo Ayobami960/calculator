@@ -1,0 +1,94 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+.container{
+    font-family:Arial, sans-serif;
+    background:url("./images/ian-stauffer-bH7kZ0yazB0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    position: relative;
+
+}
+
+.drop-shadow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(36, 4, 4, 0.2);
+    z-index: 1;
+}
+
+
+
+.calculator{
+    position: relative;
+    z-index: 2;
+    background:white;
+    padding:30px;
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    width:400px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin:5px 0;
+    background:#ea0b7f;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#090e15;
+}
+
+h3{
+    text-align:center;
+}
+
+#result{
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+
+@media(max-width: 768px){
+     .calculator{
+        width: 100%;
+        max-width: 350px;
+        padding: 20px;
+    }
+    button{
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    input{
+        padding: 12px;
+        font-size: 14px;
+    }
+}
