@@ -1,1 +1,2 @@
-Calculator Product
+Calculator app
+

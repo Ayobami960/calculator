@@ -55,6 +55,11 @@ input{
     transition: all ease-in-out .3s;
     outline:none;
 }
+#result{
+    color: #ea0b7f;
+    font-weight:bold;
+    font-size:20px;
+}
 
 input:focus{
     border:1px solid #ea0b7f;
@@ -66,7 +71,7 @@ button{
     width:100%;
     padding:10px;
     margin:5px 0;
-    background:#ea0b7f;
+    background:#f60381;
     color:white;
     border:none;
     cursor:pointer;
@@ -89,11 +94,7 @@ h3{
 }
 
 
-@media(max-width: 800px){
-
-    .container{
-        margin: 20px 10px;
-    }
+@media(max-width: 768px){
 
     
     button{
