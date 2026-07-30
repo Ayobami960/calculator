@@ -9,7 +9,6 @@ body{
 }
 
 .container{
-   
     background:url("./images/ian-stauffer-bH7kZ0yazB0-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,10 +36,12 @@ body{
     position: relative;
     z-index: 2;
     background:white;
+    width:100%;
     padding:30px;
+    margin: 20px 30px;
     border-radius:5px;
     box-shadow:0 0 10px rgba(0,0,0,.2);
-    width:500px;
+
 }
 
 input{
@@ -77,9 +78,9 @@ h3{
 }
 
 
-@media(max-width: 768px){
+@media(min-width: 800px){
      .calculator{
-        width: 100%;
+        width: 400px;
         margin: 5px 10px;
         padding: 20px;
     }
